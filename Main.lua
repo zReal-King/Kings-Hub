@@ -14,9 +14,9 @@
 
 Supported Games:
 [1] Evade - https://www.roblox.com/games/9872472334/Evade 
-[2] KAT - https://www.roblox.com/games/621129760/KAT
-[3] Rainbow Friends - https://www.roblox.com/games/7991339063/Rainbow-Friends
-[4] PETS GO! - https://www.roblox.com/games/18901165922/PETS-GO-NEW
+[2] Escape Tsunami For Brainrots! - https://www.roblox.com/games/131623223084840/Escape-Tsunami-For-Brainrots
+[3] Zombie: HyperLoot - https://www.roblox.com/games/100822312246972/Zombie-HyperLoot
+[4] Rainbow Friends - https://www.roblox.com/games/7991339063/Rainbow-Friends
 [5] Universal - Support All Games
 
 ]]
@@ -27,13 +27,14 @@ local PlaceID = {
     [10324347967] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua')))",
     [10662542523] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua')))",
     [10324346056] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua')))",
-    [621129760] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui')))",
     [7991339063] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Rainbow-Friends/main/Main.lua')))",
     [13622985049] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Rainbow-Friends/main/Main.lua')))",
     [8888615802] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Rainbow-Friends/main/Main.lua')))",
     [13622981808] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Rainbow-Friends/main/Main.lua')))",
-    [18901165922] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Pets-Go/refs/heads/main/Main.lua')))",
-    [19006211286] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Pets-Go/refs/heads/main/Main.lua')))",
+    [131623223084840] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Escape-Tsunami-For-Brainrots/refs/heads/main/Main.lua')))",
+    [100822312246972] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Zombie-HyperLoot/refs/heads/main/Main.lua')))",
+    [77595602575472] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Zombie-HyperLoot/refs/heads/main/Main.lua')))",
+    [120710626328951] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Zombie-HyperLoot/refs/heads/main/Main.lua')))",
 }
 
 local PlaceNames = {
@@ -43,13 +44,14 @@ local PlaceNames = {
     [10324347967] = "Evade",
     [10662542523] = "Evade",
     [10324346056] = "Evade",
-    [621129760] = "Knife Ability Test",
     [7991339063] = "Rainbow Friends",
     [13622985049] = "Rainbow Friends",
     [8888615802] = "Rainbow Friends",
     [13622981808] = "Rainbow Friends",
-    [18901165922] = "Pets GO",
-    [19006211286] = "Pets GO",
+    [131623223084840] = "Escape Tsunami For Brainrots!",
+    [100822312246972] = "Zombie HyperLoot",
+    [77595602575472] = "Zombie HyperLoot",
+    [120710626328951] = "Zombie HyperLoot",
 }
 
 local function executeScript(scriptContent, placeId, placeName)
