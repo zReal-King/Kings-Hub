@@ -14,11 +14,12 @@
 
 Supported Games:
 [1] Evade - https://www.roblox.com/games/9872472334/Evade 
-[2] KAT - https://www.roblox.com/games/621129760/KAT
-[3] Escape Tsunami For Brainrots! - https://www.roblox.com/games/131623223084840/Escape-Tsunami-For-Brainrots
-[4] Zombie: HyperLoot - https://www.roblox.com/games/100822312246972/Zombie-HyperLoot
-[5] Rainbow Friends - https://www.roblox.com/games/7991339063/Rainbow-Friends
-[6] Universal - Support All Games
+[2] Murder Mystery 2 - https://www.roblox.com/games/142823291/Murder-Mystery-2
+[3] KAT - https://www.roblox.com/games/621129760/KAT
+[4] Escape Tsunami For Brainrots! - https://www.roblox.com/games/131623223084840/Escape-Tsunami-For-Brainrots
+[5] Zombie: HyperLoot - https://www.roblox.com/games/100822312246972/Zombie-HyperLoot
+[6] Rainbow Friends - https://www.roblox.com/games/7991339063/Rainbow-Friends
+[7] Universal - Support All Games
 
 ]]
 local PlaceID = {
@@ -37,6 +38,7 @@ local PlaceID = {
     [77595602575472] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Zombie-HyperLoot/refs/heads/main/Main.lua')))",
     [120710626328951] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Zombie-HyperLoot/refs/heads/main/Main.lua')))",
     [621129760] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui')))",
+    [142823291] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Murder-Mystery-2/refs/heads/main/Main.lua')))",
 }
 
 local PlaceNames = {
@@ -47,6 +49,7 @@ local PlaceNames = {
     [10662542523] = "Evade",
     [10324346056] = "Evade",
     [621129760] = "KAT",
+    [142823291] = "Murder Mystery 2",
     [7991339063] = "Rainbow Friends",
     [13622985049] = "Rainbow Friends",
     [8888615802] = "Rainbow Friends",
