@@ -9,77 +9,49 @@
                                          \  *  *  *   \ \/ /  *  *  *  /
                                           ` ~ ~ ~ ~ ~  ~\/~ ~ ~ ~ ~ ~ '
 
-                                            Developer: Real King#0001
+                                            Developer: Real King (zreal_king)
                                       Discord : https://discord.gg/KhbVuU6465                   
 
 Supported Games:
 [1] Evade - https://www.roblox.com/games/9872472334/Evade 
 [2] Murder Mystery 2 - https://www.roblox.com/games/142823291/Murder-Mystery-2
 [3] KAT - https://www.roblox.com/games/621129760/KAT
-[4] Escape Tsunami For Brainrots! - https://www.roblox.com/games/131623223084840/Escape-Tsunami-For-Brainrots
+[4] SHARP - https://www.roblox.com/games/113506071094099/SHARP
 [5] Zombie: HyperLoot - https://www.roblox.com/games/100822312246972/Zombie-HyperLoot
 [6] Rainbow Friends - https://www.roblox.com/games/7991339063/Rainbow-Friends
 [7] Universal - Support All Games
-
 ]]
-local PlaceID = {
-    [9872472334] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua')))",
-    [10808838353] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua')))",
-    [10539706691] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua')))",
-    [10324347967] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua')))",
-    [10662542523] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua')))",
-    [10324346056] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua')))",
-    [7991339063] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Rainbow-Friends/main/Main.lua')))",
-    [13622985049] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Rainbow-Friends/main/Main.lua')))",
-    [8888615802] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Rainbow-Friends/main/Main.lua')))",
-    [13622981808] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Rainbow-Friends/main/Main.lua')))",
-    [86362492050446] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Escape-Tsunami-For-Brainrots/refs/heads/main/Main.lua')))",
-    [100822312246972] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Zombie-HyperLoot/refs/heads/main/Main.lua')))",
-    [77595602575472] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Zombie-HyperLoot/refs/heads/main/Main.lua')))",
-    [120710626328951] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Zombie-HyperLoot/refs/heads/main/Main.lua')))",
-    [621129760] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui')))",
-    [142823291] = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Murder-Mystery-2/refs/heads/main/Main.lua')))",
+
+local scripts = {
+    [9872472334] = "https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua",
+    [10808838353] = "https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua",
+    [10539706691] = "https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua",
+    [10324347967] = "https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua",
+    [10662542523] = "https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua",
+    [10324346056] = "https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua",
+    [7991339063] = "https://raw.githubusercontent.com/zReal-King/Rainbow-Friends/main/Main.lua",
+    [13622985049] = "https://raw.githubusercontent.com/zReal-King/Rainbow-Friends/main/Main.lua",
+    [8888615802] = "https://raw.githubusercontent.com/zReal-King/Rainbow-Friends/main/Main.lua",
+    [13622981808] = "https://raw.githubusercontent.com/zReal-King/Rainbow-Friends/main/Main.lua",
+    [100822312246972] = "https://raw.githubusercontent.com/zReal-King/Zombie-HyperLoot/refs/heads/main/Main.lua",
+    [77595602575472] = "https://raw.githubusercontent.com/zReal-King/Zombie-HyperLoot/refs/heads/main/Main.lua",
+    [120710626328951] = "https://raw.githubusercontent.com/zReal-King/Zombie-HyperLoot/refs/heads/main/Main.lua",
+    [621129760] = "https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui",
+    [105834187369271] = "https://raw.githubusercontent.com/zReal-King/SHARP/refs/heads/main/Main.lua",
+    [113506071094099] = "https://raw.githubusercontent.com/zReal-King/SHARP/refs/heads/main/Main.lua",
+    [93853815957083] = "https://raw.githubusercontent.com/zReal-King/SHARP/refs/heads/main/Main.lua",
+    [102085041605973] = "https://raw.githubusercontent.com/zReal-King/SHARP/refs/heads/main/Main.lua",
+    [102904878271905] = "https://raw.githubusercontent.com/zReal-King/SHARP/refs/heads/main/Main.lua",
+    [142823291] = "https://raw.githubusercontent.com/zReal-King/Murder-Mystery-2/refs/heads/main/Main.lua",
 }
 
-local PlaceNames = {
-    [9872472334] = "Evade",
-    [10808838353] = "Evade",
-    [10539706691] = "Evade",
-    [10324347967] = "Evade",
-    [10662542523] = "Evade",
-    [10324346056] = "Evade",
-    [621129760] = "KAT",
-    [142823291] = "Murder Mystery 2",
-    [7991339063] = "Rainbow Friends",
-    [13622985049] = "Rainbow Friends",
-    [8888615802] = "Rainbow Friends",
-    [13622981808] = "Rainbow Friends",
-    [86362492050446] = "Escape Tsunami For Brainrots!",
-    [100822312246972] = "Zombie HyperLoot",
-    [77595602575472] = "Zombie HyperLoot",
-    [120710626328951] = "Zombie HyperLoot",
-}
+local id = game.PlaceId
+local url = scripts[id]
 
-local function executeScript(scriptContent, placeId, placeName)
-    local success, result = pcall(function() 
-        return loadstring(scriptContent)()
-    end)
-
-    if not success then
-        warn("Error executing script for '" .. placeName .. "' (PlaceId: " .. placeId .. "): " .. result)
-    end
-end
-
-local currentPlaceId = game.PlaceId
-
-local scriptContent = PlaceID[currentPlaceId]
-local placeName = PlaceNames[currentPlaceId]
-
-if scriptContent then
-    executeScript(scriptContent, currentPlaceId, placeName)
+if url then
+    local success, err = pcall(function() loadstring(game:HttpGet(url))() end)
+    if not success then warn("Error: " .. err) end
 else
-    print("No available script for PlaceId " .. currentPlaceId)
-    print("Starting Universal ...")
-    local universalScript = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Universal/refs/heads/main/Main.lua')))"
-    executeScript(universalScript, currentPlaceId, "Universal Script")
+    print("No available script for PlaceId " .. id .. ", loading Universal...")
+    pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/zReal-King/Universal/refs/heads/main/Main.lua")))
 end
