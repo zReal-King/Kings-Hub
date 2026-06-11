@@ -19,7 +19,8 @@ Supported Games:
 [4] SHARP - https://www.roblox.com/games/113506071094099/SHARP
 [5] Zombie: HyperLoot - https://www.roblox.com/games/100822312246972/Zombie-HyperLoot
 [6] Rainbow Friends - https://www.roblox.com/games/7991339063/Rainbow-Friends
-[7] Universal - Support All Games
+[7] Sell Lemons - https://www.roblox.com/games/79268393072444/Sell-Lemons
+[8] Universal - Support All Games
 ]]
 
 local scripts = {
@@ -43,6 +44,7 @@ local scripts = {
     [102085041605973] = "https://raw.githubusercontent.com/zReal-King/SHARP/refs/heads/main/Main.lua",
     [102904878271905] = "https://raw.githubusercontent.com/zReal-King/SHARP/refs/heads/main/Main.lua",
     [142823291] = "https://raw.githubusercontent.com/zReal-King/Murder-Mystery-2/refs/heads/main/Main.lua",
+    [79268393072444] = "https://raw.githubusercontent.com/zReal-King/Sell-Lemons/refs/heads/main/Main.lua",
 }
 
 local id = game.PlaceId
